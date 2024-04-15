@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Y59WQUHTvl1atv0+ss9H4dItW7DRZ3SxDFuKGKNp/Po=",
+  "Source": "jenkinsDemoDotnetProject",
+  "BasePath": "_content/jenkinsDemoDotnetProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
