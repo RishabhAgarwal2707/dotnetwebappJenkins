@@ -42,7 +42,7 @@ pipeline {
 			steps{
 				script{
 					sh 'docker rm -f ${IMAGE_NAME} || true'
-					sh "docker run -d --name aspnetapp -p 8080:80 ${IMAGE_NAME}:${IMAGE_TAG}"
+					sh "docker run -d --name aspnetapp -p 8000:80 ${IMAGE_NAME}:${IMAGE_TAG}"
 				}
 			}
 		}
