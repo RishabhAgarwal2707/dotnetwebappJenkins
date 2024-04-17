@@ -2,7 +2,7 @@ pipeline {
 	agent any
 
 	environment{
-		DOCKER_IMAGE = 'JenkinsAssignmentDotnet'
+		IMAGE_NAME = 'JenkinsAssignmentDotnet'
 		IMAGE_TAG = 'latest'
 	}
 
