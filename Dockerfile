@@ -15,6 +15,6 @@ RUN dotnet test --logger "trx;logFileName=./aspnetapp.trx"
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0
 
-COPY --from=builder /app .
+COPY . .
 
 ENTRYPOINT ["dotnet", "jenkinsDemoDotnetProject.dll"]
