@@ -2,7 +2,7 @@ pipeline {
 	agent any
 
 	environment{
-		IMAGE_NAME = 'JenkinsAssignmentDotnet'
+		IMAGE_NAME = 'jenkinsdotnet'
 		IMAGE_TAG = 'latest'
 	}
 
