@@ -3,7 +3,7 @@ pipeline {
 
 	environment{
 		DOCKER_IMAGE = 'JenkinsAssignmentDotnet'
-		IMAGE_TAG = 'lastest'
+		IMAGE_TAG = 'latest'
 	}
 
 	stages{		
