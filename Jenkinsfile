@@ -33,7 +33,7 @@ pipeline {
 			steps{
 				script{
 					docker.withRegistry('https://index.docker.io/v1/','docker_login'){
-						docker.image("${IMAGE_NAME}:${IAMGE_TAG}").push()
+						docker.image("${IMAGE_NAME}:${IMAGE_TAG}").push()
 					}
 				}
 			}
